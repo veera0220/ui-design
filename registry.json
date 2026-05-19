@@ -1,17 +1,24 @@
 {
   "name": "ui-design",
-  "type": "registry:item",
   "homepage": "https://github.com/veera0220/ui-design",
-  "dependencies": [
-    "@radix-ui/react-slot",
-    "class-variance-authority",
-    "clsx",
-    "tailwind-merge"
-  ],
-  "files": [
+  "items": [
     {
-      "path": "components/ui/button.tsx",
-      "type": "registry:ui"
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Reusable button component",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "path": "components/ui/button.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
