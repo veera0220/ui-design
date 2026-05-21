@@ -1,8 +1,18 @@
 {
   "compilerOptions": {
-    "jsx": "react",
-    "paths": {
-      "@/*": ["./*"]
-    }
-  }
+    "target": "ES6",
+    "module": "ESNext",
+    "lib": ["ES6", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "declaration": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
